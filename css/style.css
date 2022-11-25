@@ -10,13 +10,8 @@ This files table contents are outlined below
 Table of Content 
 ============================ 
 
-
 - Hero Section
-- Banner Top CTA Section
 - Other Pages
-
-
-
 
 /*===================================================================
 Other Pages
@@ -34,6 +29,15 @@ Other Pages
   width: 100%;
   overflow: hidden;
 }
+
+
+.title-for-phone {
+  display: none;
+}
+.title-for-desktop {
+  
+}
+
 .coming-soon {
   background-image: url(../images/coming-soon.png);
   position: absolute;
@@ -48,6 +52,7 @@ Other Pages
   animation-fill-mode: forwards;
   mix-blend-mode: hard-light;
 }
+
 @-webkit-keyframes animation-coming {
     0% {
         transform: translateY(100px);
@@ -151,13 +156,9 @@ Other Pages
   font-family: 'Noto Sans', sans-serif;
 }
 
-
-
-
-
 .text-slide {
   position: relative;
-  top: 51px;
+  top: 50px;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -178,6 +179,9 @@ Other Pages
        
     }
 }
+
+
+
 
 .text-kangpani {
  position: relative;
