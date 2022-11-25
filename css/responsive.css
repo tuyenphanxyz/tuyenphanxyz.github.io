@@ -2,32 +2,92 @@
 
 @media only screen and (max-width: 480px) and (min-width: 0px) {
 	* {}
-.img-card-time-line img {
-	margin-bottom: 24px;
-}
-.bottom-single-blog .group-icon-social {
-    float: none;
-    margin-top: 24px;
+.item-clock h4 {
+	font-size: 18px;
 }
 
-.cta-use-bg {
-    min-height: 700px;
+.coming-soon {
+	width: 100%;
+	height: 60px;
+	margin-left: -96px;
+	bottom: 170px;
+}
+	
+.euniceyates {
+	left: 150px;
+	top: 25px;
+}
+	
+.feuel-1 {
+	display: none;
+}
+.roseleverrier {
+	display: none;
+}
+	
+.siegridEnde {
+    position: absolute;
+    left: -75px !important;
+}	
+
+.lilithle {
+	display: none;
+}
+.feuel {
+	display: none;
+}	
+	
+#clockdiv {
+	width: 100%;
+	margin-left: 0px;
+	left: 0;
+}
+#clockdiv .item-clock {
+    padding: 8px 10px;
+}
+.gr-button-social {
+	display: none;
+}
+.item-clock span {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: normal;
 }
 
-.portfolio-controls li {
-    margin-top: 12px;
+.languages__button {
+    background-color: #000;
+    padding: 6px 18px;
+    margin-top: 0px;
 }
-	.base-content-cta a.btn.btn-fill-secondary {
-    margin-top: 24px;
-} 
-	.logo-brand {
-		display: block;
-		width: 100%;
-	}
-	.logo-brand a {
-		display: inline-block;
-		float: right;
-	}
+.header__center {
+	display: none;
+}
+.text-slide {
+  position: relative;
+  top: 50px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: text-titlekan 2s cubic-bezier(0.38, 0.28, 0.58, 0.7) forwards;
+  animation-fill-mode: forwards;
+}
+
+.title-for-phone {
+  display: block;
+}
+.title-for-desktop {
+  display: none;
+}
+
+
+
+
+.image-with-effects .image-wrapper {
+	min-width: 400px;
+}
+
 	.block-navigation {
 		display: none;
 	}
@@ -36,35 +96,8 @@
 		line-height: 60px;
 		font-size: 18px;
 	}
-	.services-featured {
-		padding-bottom: 24px;
-	}
-	.card-services-featured {
-		margin-bottom: 36px;
-	}
-	.number-feature-card {
-		border-right: 0px;
-		border-bottom: 1px solid #363b44;
-	}
-	.table-price {
-		padding-bottom: 44px;
-	}
-	.card-table-price {
-		margin-bottom: 36px;
-	}
-	.our-blog-section {
-		padding-bottom: 64px;
-	}
-	.card-latest-news {
-		margin-bottom: 36px;
-	}
-	.incredible-skills {
-		padding-left: 0px !important;
-		padding: 6.25rem 0rem;
-	}
-	.base-process-bar {
-		width: 100%;
-	}
+	
+	
 	.block-menu-mobile {
 		position: fixed;
 		overflow-y: auto;
@@ -77,6 +110,7 @@
 		transition: all 0.4s;
 		transform: translateX(-500px);
 	}
+
 	.block-menu-mobile.show1 {
 		transform: translateX(0px);
 	}
@@ -85,6 +119,7 @@
 		padding-left: 0px;
 		background: #f8f9fa;
 	}
+
 	.block-menu-mobile .card-body a {
 		font-weight: 500;
 	}
@@ -146,19 +181,12 @@
 		font-weight: 300;
 		line-height: 30px;
 	}
-	.block-menu-mobile .card-header i {
-		display: inline-block;
-		width: 30px;
-		height: 30px;
-		line-height: 30px;
-		text-align: center;
-	}
+	
 }
 /* ================= SCREEN TABLET =================== */
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 	* {}
-
 
 
 	.logo-brand {
@@ -177,25 +205,8 @@
 		line-height: 60px;
 		font-size: 18px;
 	}
-	.services-featured {
-		padding-bottom: 24px;
-	}
-	.card-services-featured {
-		margin-bottom: 36px;
-	}
-	.number-feature-card {
-		border-right: 0px;
-		border-bottom: 1px solid #363b44;
-	}
-	.table-price {
-		padding-bottom: 44px;
-	}
-	.card-table-price {
-		margin-bottom: 36px;
-	}
-	.our-blog-section {
-		padding-bottom: 64px;
-	}
+	
+
 	.card-latest-news {
 		margin-bottom: 36px;
 	}
