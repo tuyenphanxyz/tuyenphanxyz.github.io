@@ -162,6 +162,21 @@ Other Pages
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  animation: text-titlekan 2s cubic-bezier(0.38, 0.28, 0.58, 0.7) forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes text-titlekan {
+    0% {
+        transform: translateY(-50px);
+       
+    }
+    100% {
+      transform: translateY(0px);
+       opacity: 1;
+       
+    }
 }
 
 .text-kangpani {
