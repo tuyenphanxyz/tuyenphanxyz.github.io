@@ -37,7 +37,7 @@ Other Pages
 .coming-soon {
   background-image: url(../images/coming-soon.png);
   position: absolute;
-  bottom: 300px;
+  bottom: 200px;
   left: 25%;
   margin-left: -160px;
   width: 1000px;
@@ -46,6 +46,7 @@ Other Pages
   opacity: 0;
   animation: animation-coming 5s cubic-bezier(0.38, 0.28, 0.58, 0.7) forwards;
   animation-fill-mode: forwards;
+  mix-blend-mode: hard-light;
 }
 @-webkit-keyframes animation-coming {
     0% {
@@ -115,7 +116,7 @@ Other Pages
   position: absolute;
   left: 50%;
   margin-left: -300px;
-  bottom: 150px;
+  bottom: 60px;
   z-index: 1000;
   display: inline-flex;
   justify-content: center;
@@ -126,7 +127,7 @@ Other Pages
   border: 1px solid rgba(255,255,255,0.2);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-   box-shadow:
+  box-shadow:
     inset 0 0 50px #fff,
     inset 20px 0 80px #ff00ff36,
     inset -20px 0 80px #00ffff17,
@@ -135,7 +136,6 @@ Other Pages
     0 0 50px #fff,
     -10px 0 80px #ff00ff0f,
     10px 0 80px #00ffff26;
-  
 }
 #clockdiv .item-clock {
     padding: 20px 20px;
@@ -251,7 +251,7 @@ Other Pages
   animation-fill-mode: forwards;
   animation-delay: 3s;
   right: 0;
-  bottom: 127px;
+  bottom: 0;
 }
 
 .gr-button-social a {
